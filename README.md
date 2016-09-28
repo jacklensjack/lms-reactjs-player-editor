@@ -1,4 +1,4 @@
-# Learning Managment Sysytem / Player / Editor 
+# Learning Managment System / Player / Editor 
 React.js Player and Editor React Components for Learning management systems , it contains the following components :
 
 * Connector 
@@ -48,3 +48,16 @@ Date is structured as json requests , you can use any service hub or restful api
 
 ```
 
+Screenshots :
+
+* Editor
+
+![Editor Main Page](https://postimg.org/image/z1fwq9her/)
+![Editor Main Page](https://postimg.org/image/5nk6aoeoz/)
+![Editor Main Page](https://postimg.org/image/ln7f7z04j/)
+![Editor Main Page](https://postimg.org/image/qadh9qnhf/)
+![Editor Main Page](https://postimg.org/image/vztpu1tnn/)
+![Editor Main Page](https://postimg.org/image/dyakw8zmr/)
+![Editor Main Page](https://postimg.org/image/vcut4iwrn/)
+![Editor Main Page](https://postimg.org/image/683sr3xb7/)
+![Editor Main Page](https://postimg.org/image/luv24hb37/)
