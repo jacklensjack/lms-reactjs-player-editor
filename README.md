@@ -50,14 +50,12 @@ Date is structured as json requests , you can use any service hub or restful api
 
 Screenshots :
 
-* Editor
-
-![Editor Main Page](https://postimg.org/image/z1fwq9her/)
-![Editor Main Page](https://postimg.org/image/5nk6aoeoz/)
-![Editor Main Page](https://postimg.org/image/ln7f7z04j/)
-![Editor Main Page](https://postimg.org/image/qadh9qnhf/)
-![Editor Main Page](https://postimg.org/image/vztpu1tnn/)
-![Editor Main Page](https://postimg.org/image/dyakw8zmr/)
-![Editor Main Page](https://postimg.org/image/vcut4iwrn/)
-![Editor Main Page](https://postimg.org/image/683sr3xb7/)
-![Editor Main Page](https://postimg.org/image/luv24hb37/)
+![Image Editor ](https://s21.postimg.org/tihyms9rb/Text.png)
+![Image Editor ](https://s21.postimg.org/hunws8kmf/text_minipulation.png)
+![Image Editor ](https://s21.postimg.org/66tuxovhj/toolsbar.png)
+![Image Editor ](https://s21.postimg.org/kejjmc86f/video.png)
+![Image Editor ](https://s21.postimg.org/hlqc2b7tz/voice.png)
+![Image Editor ](https://s21.postimg.org/59iub2ulj/colors.png)
+![Image Editor ](https://s21.postimg.org/nqd91wajr/editor_component.png)
+![Image Editor ](https://s21.postimg.org/vx9u77q07/interactive_text.png)
+![Image Editor ](https://s21.postimg.org/5dh952pgn/progress.png)
