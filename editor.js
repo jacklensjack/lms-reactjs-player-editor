@@ -77,7 +77,7 @@ $('#add-text').click(function(){
 });
 
 $('#add-image').click(function(){
-    fabric.Image.fromURL('http://omnix.ae/public/assets/omnix/images/omnix-logo.png', function(oImg) {
+    fabric.Image.fromURL('http://test/public/assets/test/images/test-logo.png', function(oImg) {
         canvas.add(oImg);
     });
 
