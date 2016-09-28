@@ -29,32 +29,31 @@ Date is structured as json requests , you can use any service hub or restful api
 {id:<ID>,status:<STATUS>,type:"video",subtype:"youtube",content:"<Video ID>"}
 
 ```
+![Image Editor ](https://s21.postimg.org/kejjmc86f/video.png)
 
 * video / vimeo
 ```
 {id:<ID>,status:<STATUS>,type:"video",subtype:"vimeo",content:"<Video ID>"}
 
 ```
-
+![Image Editor ](https://s21.postimg.org/kejjmc86f/video.png)
 * Audio / Audio
 ```
 {id:<ID>,status:<STATUS>,type:"audio",subtype:"audio",path:"<Path>"}
 
 ```
-
+![Image Editor ](https://s21.postimg.org/hlqc2b7tz/voice.png)
 * Text / Images / Canvas
 ```
 {id:<ID>,status:<STATUS>,type:"content",subtype:"canvas",content:"<Canvas Object>"}
 
 ```
-
-Screenshots :
-
 ![Image Editor ](https://s21.postimg.org/tihyms9rb/Text.png)
+
+Editor Screenshots :
+
 ![Image Editor ](https://s21.postimg.org/hunws8kmf/text_minipulation.png)
 ![Image Editor ](https://s21.postimg.org/66tuxovhj/toolsbar.png)
-![Image Editor ](https://s21.postimg.org/kejjmc86f/video.png)
-![Image Editor ](https://s21.postimg.org/hlqc2b7tz/voice.png)
 ![Image Editor ](https://s21.postimg.org/59iub2ulj/colors.png)
 ![Image Editor ](https://s21.postimg.org/nqd91wajr/editor_component.png)
 ![Image Editor ](https://s21.postimg.org/vx9u77q07/interactive_text.png)
