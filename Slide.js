@@ -1,6 +1,3 @@
-/**
- * Created by halnator on 8/3/16.
- */
 
 
 function Slide(dataArray){
