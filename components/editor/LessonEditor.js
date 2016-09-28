@@ -7,16 +7,10 @@ export default class LessonEditor extends React.Component {
 
         this.state = {
             LessonName: 'First Lesson',
-            CourseName: 'Introduction to IPorts',
+            CourseName: 'Introduction',
             Slides: [
 
-                {id:1,status:1,title_ar:"test",type:"video",subtype:"youtube",content:"bTqVqk7FSmY"},
-                {id:2,status:1,title_ar:"test",type:"audio",subtype:"youtube",content:"bTqVqk7FSmY"},
-                {id:3,status:1,title_ar:"test",type:"quiz",subtype:"youtube",content:"bTqVqk7FSmY"},
-                {id:4,status:1,title_ar:"test",type:"video",subtype:"youtube",content:"bTqVqk7FSmY"},
-                {id:5,status:1,title_ar:"test",type:"exam",subtype:"youtube",content:"bTqVqk7FSmY"},
-                {id:6,status:0,type:"content",subtype:"canvas",content:'{"objects":[{"type":"i-text","originX":"left","originY":"top","left":100,"top":100,"width":334.34,"height":45.2,"fill":"blue","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeLineJoin":"miter","strokeMiterLimit":10,"scaleX":1,"scaleY":1,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"clipTo":null,"backgroundColor":"","fillRule":"nonzero","globalCompositeOperation":"source-over","transformMatrix":null,"skewX":0,"skewY":0,"text":"Click to change Text","fontSize":40,"fontWeight":"normal","fontFamily":"Times New Roman","fontStyle":"","lineHeight":1.16,"textDecoration":"","textAlign":"left","textBackgroundColor":"","styles":{}},{"type":"i-text","originX":"left","originY":"top","left":108.99,"top":150,"width":334.34,"height":45.2,"fill":"blue","stroke":null,"strokeWidth":1,"strokeDashArray":null,"strokeLineCap":"butt","strokeLineJoin":"miter","strokeMiterLimit":10,"scaleX":0.49,"scaleY":0.49,"angle":0,"flipX":false,"flipY":false,"opacity":1,"shadow":null,"visible":true,"clipTo":null,"backgroundColor":"","fillRule":"nonzero","globalCompositeOperation":"source-over","transformMatrix":null,"skewX":0,"skewY":0,"text":"Click to change Text","fontSize":40,"fontWeight":"normal","fontFamily":"Times New Roman","fontStyle":"","lineHeight":1.16,"textDecoration":"","textAlign":"left","textBackgroundColor":"","styles":{}}],"background":""}'},
-
+            
             ],
             ActiveLessonId: 1,
             ActiveSlideId: 1,
@@ -71,11 +65,11 @@ class Slide extends React.Component {
             return <a href="javascript:void(0)" className="btn btn-raised btn-primary"><span className="badge"><i className="fa fa-pencil-square-o" aria-hidden="true"></i></span> {this.props.index + 1} - {this.props.data.title_ar}</a>
 
         } else if(type == "video"){
-            /*
+            
             if(subtype == "youtube"){
                 return <a href="javascript:void(0)" className="btn btn-raised btn-info"><span className="badge"><i className="fa  fa-youtube-square" aria-hidden="true"></i></span> {this.props.index + 1} - {this.props.data.title_ar}</a>
             }
-            */
+            
             return <a href="javascript:void(0)" className="btn btn-raised btn-info"><span className="badge"><i className="fa fa-video-camera" aria-hidden="true"></i></span> {this.props.index + 1} - {this.props.data.title_ar}</a>
 
         } else if(type == "audio"){
